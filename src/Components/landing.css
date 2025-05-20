@@ -1,0 +1,7 @@
+#wallpaper{
+    background-image: url("./Images/bg2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 110vh;
+    width: 100%;
+}
