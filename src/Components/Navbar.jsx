@@ -1,6 +1,6 @@
 function Navbar(){
     return(
-        <nav>
+        <nav className="fixed w-full">
             <ul className="flex flex-row space-x-8 pt-5 text-white justify-end pr-5">   
                 <li className=" opacity-90"><a href="#">Home</a></li>
                 <li className=" opacity-90"><a href="#">Projects</a></li>
