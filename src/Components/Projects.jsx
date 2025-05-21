@@ -1,10 +1,12 @@
+import FadeInSection2 from "./FadeInSection2";
 import Kktech from "./Images/kktech.png";
 import Rvd from "./Images/riverside.png";
 function Projects() {
   return (
-    <div className=" bg-slate-950 text-center p-14  mr-5 text-white pt-20 w-full h-full">
-      <div className="text-center pr-10 pb-12">
-        <h1 className="text-3xl  font-bold p-3">Projects</h1>
+    <div className=" bg-slate-950 text-center p-16  mr-5 text-white pt-20 w-full h-auto">
+      <FadeInSection2>
+      <div className="text-center  pb-12">
+        <h1 className="text-3xl  font-bold p-5">Projects</h1>
         <p className="opacity-40">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur maiores aperiam doloremque. Nesciunt praesentium perferendis vero totam</p>
       </div>
       <div className="">
@@ -56,6 +58,7 @@ function Projects() {
          
         </div>
       </div>
+      </FadeInSection2>
     </div>
   );
 }

@@ -1,10 +1,13 @@
 import Kevin from ".//Images/pic.jpeg";    
 import Instagram from ".//Images/instagram.png";    
 import Snapchat from ".//Images/snapchat.png";    
-import Linko from ".//Images/linkedin.png";    
+import Linko from ".//Images/linkedin.png";  
+import FadeInSection from "./FadeInSection";  
 function Sidebar() {
   return (
-    <div className="bg-sky-950 fixed text-white w-1/4 h-full">
+    
+    <div className="bg-slate-950 mr-4   text-white w-1/4 h-full">
+      <FadeInSection>
       <div className="flex flex-col items-left p-2">
         <img src={Kevin} alt="Kevin" className="w-1/2 rounded-1/2 m-3" />
         <div className="flex flex-row">
@@ -29,6 +32,7 @@ function Sidebar() {
        
         
       </div>
+      </FadeInSection>
     </div>
   );
 }
