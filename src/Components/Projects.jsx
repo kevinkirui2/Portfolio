@@ -10,9 +10,9 @@ function Projects() {
         <p className="opacity-40">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur maiores aperiam doloremque. Nesciunt praesentium perferendis vero totam</p>
       </div>
       <div className="">
-        <div class="max-w-full border flex p-3 rounded overflow-hidden mr-5 shadow-lg">
-          <div>
-            <img class="w-50  " src={Kktech} alt="Sunset in the mountains" />
+        <div class="max-w-full border lg:flex sm:block p-3 rounded overflow-hidden mr-5 shadow-lg">
+          <div className="p-5">
+            <img class="w-full  " src={Kktech} alt="Sunset in the mountains" />
           </div>
           <div class=" px-6 py-4">
             <div class="font-bold text-emerald-700 text-xl mb-2">
@@ -35,7 +35,7 @@ function Projects() {
         <br></br>
         <br></br>
 
-        <div class="max-w-full border flex p-3 rounded overflow-hidden mr-5 shadow-lg">
+        <div class="max-w-full border lg:flex sm:block p-3 rounded overflow-hidden mr-5 shadow-lg">
           <div>
             <img class="w-full" src={Rvd} alt="Sunset in the mountains" />
           </div>

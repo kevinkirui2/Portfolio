@@ -62,7 +62,7 @@ function Experience() {
 
           <br></br><br></br>
 
-      <div className="max-w-md mx-auto bg-gray-950  rounded-2xl shadow-md p-4 transition-all">
+      <div className="max-w-md mx-auto bg-gray-950 shadow-lg  rounded-2xl shadow-md p-4 transition-all">
           <div className="flex items-center space-x-4">
             {/* Image */}
             <img

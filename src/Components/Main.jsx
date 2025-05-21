@@ -12,7 +12,7 @@ function Main() {
         <Sidebar/>
       </div>
 
-      <div className="ml-64 w-full">
+      <div className="lg:ml-64 w-full">
         <Landing />
         <Projects />
         <Experience />
