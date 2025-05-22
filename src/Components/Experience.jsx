@@ -4,7 +4,7 @@ import BTN from "./Images/btn.jpg";
 import WDC from "./Images/wdc.png";
 import Date from "./Images/calendar.png";
 import FadeInSection2 from "./FadeInSection2";
-function Experience() {
+function Experience(){
   const [expanded, setExpanded] = useState(false);
   return (
     <div className="bg-slate-900 text-white h-auto p-20 text-center">
@@ -16,7 +16,7 @@ function Experience() {
       </p>
 
       <div>
-        <div className="max-w-md mx-auto bg-gray-950 rounded-2xl shadow-md p-4 transition-all">
+<div className="w-full sm:max-w-md mx-auto bg-gray-950 rounded-2xl shadow-md p-4 transition-all px-4">
           <div className="flex items-center space-x-4">
             {/* Image */}
             <img
@@ -31,9 +31,9 @@ function Experience() {
               <p className="text-gray-600 text-sm ">World Disaster Center</p>
 
                <div className="flex-1">
-               <p className="text-gray-600 text-sm"> Remote - Austria</p>
+               <p className="text-gray-600 text-sm  hidden sm:block"> Remote - Austria</p>
 
-              <p className="text-gray-600 text-sm">2025 - Present</p>
+              <p className="text-gray-600 text-sm  hidden sm:block">2025 - Present</p>
               
               
             </div>
@@ -74,12 +74,12 @@ function Experience() {
             {/* Content */}
             <div className="flex-1">
               <h3 className="text-lg  font-semibold">Software Dev(Intern)</h3>
-              <p className="text-gray-600 text-sm">Baran Telcom Networks</p>
+              <p className="text-gray-600 text-sm sm:hidden">Baran Telcom Networks</p>
 
                <div className="flex-1">
-               <p className="text-gray-600 text-sm">  Nairobi,Kenya</p>
+               <p className="text-gray-600 text-sm  hidden sm:block">  Nairobi,Kenya</p>
 
-              <p className="text-gray-600 text-sm"> May 2023 - August 2023</p>
+              <p className="text-gray-600 text-sm hidden sm:block"> May 2023 - August 2023</p>
               
               
             </div>

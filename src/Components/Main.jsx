@@ -4,19 +4,21 @@ import Experience from "./Experience";
 import Projects from "./Projects";
 import Activities from "./Activities";
 import FadeInSection from "./FadeInSection";
+import Footer from "./Footer";
 
 function Main() {
   return (
     <div className="flex">
-      <div className="fixed left-0 top-0 h-full z-10">
+      <div className="fixed overflow-auto left-0 top-0 h-100px h-screen z-10">
         <Sidebar/>
       </div>
 
-      <div className="lg:ml-64 w-full">
+      <div className="lg:ml-64 sm:max-w-full ">
         <Landing />
         <Projects />
         <Experience />
         <Activities />
+        <Footer />
       </div>
     </div>
   );
