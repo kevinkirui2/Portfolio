@@ -1,56 +1,102 @@
 import FadeInSection2 from "./FadeInSection2";
-import Kktech from "./Images/kktech.png";
+import Kktech from "./Images/kktec.png";
 import Rvd from "./Images/riverside.png";
+import Link from "./Images/link.png";
 function Projects() {
   return (
     <div className=" bg-slate-950 text-center p-16  mr-5 text-white pt-20 w-full h-auto">
       <FadeInSection2>
-      <div className="text-center  pb-12">
-        <h1 className="text-3xl  font-bold p-5">Projects</h1>
-        <p className="opacity-40">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur maiores aperiam doloremque. Nesciunt praesentium perferendis vero totam</p>
-      </div>
-      <div className="">
-        <div class="lg:max-w-full  border-r-4 border-green-500 lg:block sm:block p-3 rounded overflow-hidden mr-5 shadow-lg">
-          <div className="p-5 text-center pl-10">
-            <img class="w-full " src={Kktech} alt="Sunset in the mountains" />
-          </div>
-          <div class=" px-6 py-4">
-            <div class="font-bold text-emerald-700 text-4xl mb-2">
-              Kktech Innovations
-            </div>
-
-            <p className="font-bold text-white text-sm mb-2">Founder</p>
-            
-             <div class="px-6 pt-4 pb-2">
-            <span class="inline-block bg-green-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-              Visit Website
-            </span>
-          </div>
-          </div>
-         
+        <div className="text-center  pb-12">
+          <h1 className="text-3xl  font-bold p-5">Projects</h1>
+          <p className="opacity-40">
+          Some of the projects I have worked on in the past.
+          </p>
         </div>
-        <br></br>
-        <br></br>
-
-        <div class="max-w-full  border-r-4 border-green-500  lg:block sm:block p-3 rounded overflow-hidden mr-5 shadow-lg">
-          <div>
-            <img class="w-full" src={Rvd} alt="Sunset in the mountains" />
+        <div className="">
+          <div className="flex justify-end hover:cursor-pointer ">
+              <a
+                href="https://flashtech.co.ke/KKTECHINNOVATIONS/portfolio.php"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+            <img
+              className="w-12 mr-10"
+              src={Link}
+              alt="Sunset in the mountains"
+            />
+            </a>
           </div>
-          <div class=" px-6 py-4">
-            <div class="font-bold text-green-700 text-5xl mb-2">
-              Riverside Hostels Website
+          <div class="lg:max-w-full   border-r-4 border-green-500 lg:flex sm:block p-3 rounded overflow-hidden  shadow-lg">
+            <div className="p-5 text-center ">
+              <a
+                href="https://flashtech.co.ke/KKTECHINNOVATIONS/portfolio.php"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className=""
+                  src={Kktech}
+                  alt="Sunset in the mountains"
+                />
+              </a>{" "}
             </div>
-            <p className="font-bold text-white text-2xl mb-2">Developer</p>
-           
-             <div class="px-6 pt-4 pb-2">
-            <span class="inline-block bg-green-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-              <a href=""></a>Visit Website
-            </span>
+            <div class="">
+              <div class="font-bold text-white text-4xl mb-2">
+                KKTECH Innovations
+              </div>
+
+              <p className="font-bold opacity-40 text-white text-sm mb-2">
+             Personal business website, designed to showcase the projects  worked on and the services I offer. It serves as a portfolio for potential clients to explore my work, understand my skills, and view the various website development plans available. If you're interested in having a website built or want to collaborate,
+              </p>
+
+              <div class="px-6 pt-4 pb-2">
+                <span class="inline-block bg-green-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                  PHP
+                </span>
+              </div>
+            </div>
           </div>
+          <br></br>
+          <br></br>
+
+           <div className="flex justify-end hover:cursor-pointer ">
+            <img
+              className="w-12 mr-10"
+              src={Link}
+              alt="Sunset in the mountains"
+            />
           </div>
-         
+          <div class="lg:max-w-full   border-r-4 border-green-500 lg:flex sm:block p-3 rounded overflow-hidden  shadow-lg">
+            <div className="p-5 text-center ">
+              <a
+                href="https://flashtech.co.ke/KKTECHINNOVATIONS/portfolio.php"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className="w-5/6"
+                  src={Rvd}
+                  alt="Sunset in the mountains"
+                />
+              </a>{" "}
+            </div>
+            <div class="">
+              <div class="font-bold text-white text-4xl mb-2">
+                RIVERSIDE HOSTELS
+              </div>
+
+              <p className="font-bold opacity-40 text-white text-sm mb-2">
+               This is a booking platform for Riverside Hostel, allowing customers to reserve rooms online. Admins can verify payments and secure bookings. It also includes an eCare portal where tenants can check rent status and report room issues easily.
+              </p>
+
+              <div class="px-6 pt-4 pb-2">
+                <span class="inline-block bg-green-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                  PHP
+                </span>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
       </FadeInSection2>
     </div>
   );

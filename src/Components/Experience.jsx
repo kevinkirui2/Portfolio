@@ -27,13 +27,13 @@ function Experience(){
 
             {/* Content */}
             <div className="flex-1">
-              <h3 className="text-lg  font-semibold">FullStack Developer </h3>
+              <h3 className="text-lg  font-semibold">FullStack Developer (Intern) </h3>
               <p className="text-gray-600 text-sm ">World Disaster Center</p>
 
                <div className="flex-1">
                <p className="text-gray-600 text-sm  hidden sm:block"> Remote - Austria</p>
 
-              <p className="text-gray-600 text-sm  hidden sm:block">2025 - Present</p>
+              <p className="text-gray-600 text-sm  hidden sm:block"> April 2025 - May 2025</p>
               
               
             </div>
@@ -52,9 +52,7 @@ function Experience(){
           {/* Expanded Content */}
           {expanded && (
             <div className="mt-4 text-sm text-gray-700">
-              Here is some more detailed information that is hidden until you
-              click the arrow. You can customize this area with any content
-              you'd like.
+              Worked on the backend development of a roster management system. Responsible for creating APIs to fetch and serve data for the roster page, as well as implementing functionality to ensure that data is properly stored and maintained in the database.
             </div>
           )}
         </div>
@@ -99,9 +97,7 @@ function Experience(){
           {/* Expanded Content */}
           {expanded && (
             <div className="mt-4 text-sm text-gray-700">
-              Here is some more detailed information that is hidden until you
-              click the arrow. You can customize this area with any content
-              you'd like.
+             Responsible for backend development, including API enhancements, full software lifecycle management, and documentation. Managed SDWAN gateway monitoring, customer deployments and decommissions, and remote/manual upgrades of CPEs. Provided technical support to end users, and handled setup of computers, networks, user accounts, and software installations. Also responsible for troubleshooting hardware/software issues and ensuring proper system configurations.
             </div>
           )}
         </div>
