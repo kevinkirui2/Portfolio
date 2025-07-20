@@ -1,6 +1,7 @@
 import FadeInSection2 from "./FadeInSection2";
 import Kktech from "./Images/kktec.png";
 import Rvd from "./Images/riverside.png";
+import Kktech2 from "./Images/cheffset.png";
 import Link from "./Images/link.png";
 function Projects() {
   return (
@@ -26,7 +27,10 @@ function Projects() {
             />
             </a>
           </div>
-          <div class="lg:max-w-full   border-r-4 border-green-500 lg:flex sm:block p-3 rounded overflow-hidden  shadow-lg">
+         
+
+
+            <div class="lg:max-w-full    border-r-4 border-green-500 lg:flex sm:block p-3 rounded overflow-hidden  shadow-lg">
             <div className="p-5 text-center ">
               <a
                 href="https://flashtech.co.ke/KKTECHINNOVATIONS/portfolio.php"
@@ -56,17 +60,65 @@ function Projects() {
               </div>
             </div>
           </div>
+
+
+
+
+         <div className="flex pt-10 justify-end hover:cursor-pointer ">
+              <a
+                href="https://cheffest-zeta.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+            <img
+              className="w-12 mr-10"
+              src={Link}
+              alt="Sunset in the mountains"
+            />
+            </a>
+          </div>
+          
+          <div class="lg:max-w-full pt-10   border-r-4 border-green-500 lg:flex sm:block p-3 rounded overflow-hidden  shadow-lg">
+            <div className="p-5 text-center ">
+              <a
+                href="https://cheffest-zeta.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className=""
+                  src={Kktech2}
+                  alt="Sunset in the mountains"
+                />
+              </a>{" "}
+            </div>
+            <div class="">
+              <div class="font-bold text-white text-4xl mb-2">
+                CHEFFEST GRILL AND RESTAURANT
+              </div>
+
+              <p className="font-bold opacity-40 text-white text-sm mb-2">
+             Cheffset Grill and Restaurant is a modern React-based website that elegantly showcases the restaurant's description, diverse menu, engaging blog, and a contact section, offering users a clean and seamless browsing experience.
+              </p>
+
+              <div class="px-6 pt-4 pb-2">
+                <span class="inline-block bg-green-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                  REACT
+                </span>
+              </div>
+            </div>
+          </div>
           <br></br>
           <br></br>
 
-           <div className="flex justify-end hover:cursor-pointer ">
+           <div className="flex pt-10  justify-end hover:cursor-pointer ">
             <img
               className="w-12 mr-10"
               src={Link}
               alt="Sunset in the mountains"
             />
           </div>
-          <div class="lg:max-w-full   border-r-4 border-green-500 lg:flex sm:block p-3 rounded overflow-hidden  shadow-lg">
+          <div class="lg:max-w-full  border-r-4 border-green-500 lg:flex sm:block p-3 rounded overflow-hidden  shadow-lg">
             <div className="p-5 text-center ">
               <a
                 href="https://flashtech.co.ke/KKTECHINNOVATIONS/portfolio.php"
