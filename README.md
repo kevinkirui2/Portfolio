@@ -1,70 +1,71 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# 💼 Kevin Kirui | Portfolio
 
-In the project directory, you can run:
+https://github.com/user-attachments/assets/53b86014-c705-42da-b546-f1b4eca9cb83
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Welcome to my developer portfolio repository! This project showcases my personal and professional journey in software development — including **projects**, **work experience**, and the **technologies** I'm skilled in.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🌟 About Me
 
-### `npm run build`
+I am a passionate and detail-oriented Developer focused on creating functional, responsive, and visually appealing web and mobile applications. With a strong foundation in both front-end and back-end development, I enjoy bringing ideas to life through clean and efficient code.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📁 Portfolio Projects
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Here are some of the featured projects included in this portfolio:
 
-### `npm run eject`
+### 1. 🏨 Hostel Management System  
+A full-featured web application for managing hostel bookings, payments (via Mpesa and Cash), tenant information, maintenance requests, and admin controls.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Tech Stack**: PHP, MySQL, HTML, Tailwind CSS, JavaScript  
+- **Key Features**: Room booking, rent payment, admin dashboard, notice system
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 2. 💼 IST Alumni System  
+A job portal for IST alumni to view and apply for jobs. Admins can post new jobs and manage applicants.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Tech Stack**: Laravel, Blade, Tailwind CSS, MySQL  
+- **Key Features**: User authentication, job applications, role-based access
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 3. 🍔 React Restaurant System(Cheffset)  
+A System that allows users to add food items to a cart and calculate totals dynamically.
 
-## Learn More
+- **Tech Stack**: React.js, JavaScript, HTML, CSS  
+- **Key Features**: Add to cart, real-time calculation, responsive design
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 💻 Skills & Technologies
 
-### Code Splitting
+### Languages
+- ✅ PHP
+- ✅ JavaScript
+- ✅ SQL
+- ✅ HTML & CSS
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Frameworks & Tools
+- ✅ Laravel
+- ✅ React.js
+- ✅ Tailwind CSS
+- ✅ MySQL
+- ✅ Firebase
+- ✅ Git & GitHub
+- ✅ Figma (UI Prototyping)
+- ✅ SweetAlert, Axios, REST APIs
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📫 Contact
 
-### Making a Progressive Web App
+If you want to collaborate, discuss a project, or just say hi — feel free to reach out:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- **Email**: [kiruikev99@gmail.com]  
+- **LinkedIn**: [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)  
+- **GitHub**: [github.com/kevinkirui2](https://github.com/kevinkirui2)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
