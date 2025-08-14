@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import Kevin from "./Images/pic2.jpeg";
+import Kevin from "./Images/KK.jpeg";
 import Instagram from "./Images/instagram.png";
 import Github from "./Images/github.png";
 import LinkedIn from "./Images/linkedin.png";
