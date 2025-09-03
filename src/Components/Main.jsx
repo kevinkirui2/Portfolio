@@ -57,9 +57,9 @@ const Main = () => {
 
       {/* Hero Section */}
       <section id="home" className="min-h-screen flex items-center pt-12 justify-center relative ">
-              <div className=" w-full md:w-1/2">
-                <img src={kev} alt="Kevin" className="w-3/4 rounded-lg m-3" />
-              </div>
+             <div className="w-full md:w-1/2 hidden md:block">
+  <img src={kev} alt="Kevin" className="w-3/4 rounded-lg m-3" />
+</div>
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="">
             <img className="w-24 mx-auto mb-6 rounded" src={logo} alt="logo" />
@@ -72,7 +72,7 @@ const Main = () => {
               modern web applications with cutting-edge technologies.
             </p>
           </div>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row pt-6 gap-4 justify-center">
             <button 
               onClick={() => scrollToSection('projects')}
               className="px-8 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors flex items-center justify-center gap-2"
@@ -101,7 +101,7 @@ const Main = () => {
               <Code className="w-12 h-12 text-blue-600 mx-auto mb-4" />
               <h3 className="text-xl font-semibold mb-3">Full-Stack Development</h3>
               <p className="text-gray-600">
-                Expertise in modern frameworks including React, Vue.js, and Ruby on Rails
+                Expertise in modern frameworks including React, Laravel etc
               </p>
             </div>
             <div className="text-center p-6 rounded-lg hover:shadow-lg transition-shadow">
@@ -217,20 +217,7 @@ With over a decade of experience in the gaming industry, we pride ourselves on o
               </div>
             </div>
 
-            <div className="bg-gray-50 rounded-lg overflow-hidden hover:shadow-xl transition-shadow">
-              <div className="h-48 bg-gradient-to-br from-purple-500 to-pink-500"></div>
-              <div className="p-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">E-commerce Platform</h3>
-                <p className="text-gray-600 text-sm leading-relaxed">
-                  Complete e-commerce solution with payment integration, inventory management, 
-                  and responsive design for optimal mobile experience.
-                </p>
-                <div className="mt-4 flex justify-between items-center">
-                  <span className="text-xs text-purple-600 font-semibold">VUE.JS</span>
-                  <ExternalLink className="w-4 h-4 text-gray-400 hover:text-gray-600 cursor-pointer" />
-                </div>
-              </div>
-            </div>
+         
           </div>
         </div>
       </section>
