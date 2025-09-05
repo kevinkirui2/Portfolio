@@ -4,6 +4,7 @@ import logo from "./Images/logo2.png";
 import kev from "./Images/kevin.jpeg";
 import Kktech2 from "./Images/cheffset.png";
 import Vida from "./Images/VideoDem0.mp4";
+import Vida2 from "./Images/TeaApp.mp4";
 
 import dex   from "./Images/dex1.png";
 import dex1 from "./Images/dexter2.png";
@@ -199,14 +200,14 @@ const Main = () => {
             </div>
 
             {/* Additional project placeholders */}
-            <div 
+            <div  
       className="bg-gray-50 rounded-lg overflow-hidden hover:shadow-xl transition-shadow relative"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <div className="h-50 relative">
+      <div className="h-full  ">
         <video
-          className="w-full h-full object-cover"
+          className="w-xl h-full object-cover"
           src={Vida}
           autoPlay
           muted
@@ -215,28 +216,47 @@ const Main = () => {
         />
       
         {isHovered && (
-          <div className="absolute inset-0 bg-black bg-opacity-70 flex items-center justify-center transition-opacity duration-300">
-            <div className="text-white text-center p-4">
+          <div className="absolute inset-0 bg-black bg-opacity-20 flex items-center justify-center transition-opacity duration-300">
+            <div className="text-white text-left  pt-72 p-4">
 
-              <p className="text-sm opacity-90">GameXchange</p>
-              <p className="text-xs opacity-75 mt-1"> GameXchange is your premier destination for digital gaming excellence. We've revolutionized the way gamers discover, purchase, and enjoy their favorite titles.
-
-          With over a decade of experience in the gaming industry, we pride ourselves on offering the latest releases, classic favorites, and exclusive deals that can't be found anywhere else.</p>
+              <p className="text-xl font-bold opacity-90">GameXchange</p>
+              <p className="text-sm opacity-90 mt-1"> An E-commerce website for video games exchange between buyers (Gamer) and sellers managed by the admin </p>
+              <button className="bg-gray-100 hover:bg-gray-700 text-white  py-2 px-4 rounded mt-2 mr-3"><span class="text-red-500">Laravel</span></button>
             </div>
           </div>
         )}
       </div>
       
-      <div className="p-6">
-        <h3 className="text-xl font-bold text-gray-900 mb-3">GameXchange</h3>
-        <p className="text-gray-600 text-sm leading-relaxed">
-         
-        </p>
-        <div className="mt-4 flex justify-between items-center">
-          <span className="text-xs text-red-600 font-semibold">LARAVEL</span>
-          {/* <ExternalLink className="w-4 h-4 text-gray-400 hover:text-gray-600 cursor-pointer" /> */}
-        </div>
+    </div>
+
+       <div  
+      className="bg-gray-50 rounded-lg overflow-hidden hover:shadow-xl transition-shadow relative"
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
+    >
+      <div className="h-full  ">
+        <video
+          className="w-xl h-full object-cover"
+          src={Vida2}
+          autoPlay
+          muted
+          loop
+          playsInline
+        />
+      
+        {isHovered && (
+          <div className="absolute inset-0 bg-black bg-opacity-20 flex items-center justify-center transition-opacity duration-300">
+            <div className="text-white text-left  pt-72 p-4">
+
+              <p className="text-xl font-bold opacity-90">Chai App</p>
+              <p className="text-sm opacity-90 mt-1"> An Managment System for a Tea Farm Between the Farm Owner and the Farm Supervisor, where the Supervisor can manage the Farm e.g Add Workers, Input the tea production data and Farm Owner can view the data </p>
+              <button className="bg-gray-100 hover:bg-gray-700 text-white  py-2 px-4 rounded mt-2 mr-3"><span class="text-blue-500">React</span></button>
+               <button className="bg-gray-100 hover:bg-gray-700 text-white  py-2 px-4 rounded mt-2 mr-3"><span class="text-amber-500">Node Js</span></button>
+            </div>
+          </div>
+        )}
       </div>
+      
     </div>
          
           </div>
