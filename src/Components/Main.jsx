@@ -14,6 +14,7 @@ const Main = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [activeSection, setActiveSection] = useState('home');
    const [isHovered, setIsHovered] = useState(false);
+      const [isHovered2, setIsHovered2] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -171,96 +172,89 @@ const Main = () => {
       {/* Projects Section */}
       <section id="projects" className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
+          <div className="text-center">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">Projects</h2>
-            <p className="text-xl text-gray-600">
-              A showcase of my recent work and creative solutions
+            <p className="text-xl mb-10 text-gray-600">
+              Here are some of my recent projects
             </p>
           </div>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Church Website Project */}
-            <div className="bg-gray-50 rounded-lg overflow-hidden hover:shadow-xl transition-shadow">
-              <div className="h-48"> 
-                <img
-                  className=""
-                  src={Kktech2}
-                  alt="Sunset in the mountains"
-                /> </div>
-              <div className="p-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">  CHEFFEST GRILL AND RESTAURANT</h3>
-                <p className="text-gray-600 text-sm leading-relaxed">
-                               Cheffset Grill and Restaurant is a modern React-based website that elegantly showcases the restaurant's description, diverse menu, engaging blog, and a contact section, offering users a clean and seamless browsing experience.
-.
-                </p>
-                <div className="mt-4 flex justify-between items-center">
-                  <span className="text-xs text-blue-600 font-semibold">REACT</span>
-                  <ExternalLink className="w-4 h-4 text-gray-400 hover:text-gray-600 cursor-pointer" />
-                </div>
-              </div>
-            </div>
-
-            {/* Additional project placeholders */}
-            <div  
-      className="bg-gray-50 rounded-lg overflow-hidden hover:shadow-xl transition-shadow relative"
-      onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}
-    >
-      <div className="h-full  ">
-        <video
-          className="w-xl h-full object-cover"
-          src={Vida}
-          autoPlay
-          muted
-          loop
-          playsInline
-        />
-      
-        {isHovered && (
-          <div className="absolute inset-0 bg-black bg-opacity-20 flex items-center justify-center transition-opacity duration-300">
-            <div className="text-white text-left  pt-72 p-4">
-
-              <p className="text-xl font-bold opacity-90">GameXchange</p>
-              <p className="text-sm opacity-90 mt-1"> An E-commerce website for video games exchange between buyers (Gamer) and sellers managed by the admin </p>
-              <button className="bg-gray-100 hover:bg-gray-700 text-white  py-2 px-4 rounded mt-2 mr-3"><span class="text-red-500">Laravel</span></button>
-            </div>
-          </div>
-        )}
-      </div>
-      
-    </div>
-
-       <div  
-      className="bg-gray-50 rounded-lg overflow-hidden hover:shadow-xl transition-shadow relative"
-      onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}
-    >
-      <div className="h-full  ">
-        <video
-          className="w-xl h-full object-cover"
-          src={Vida2}
-          autoPlay
-          muted
-          loop
-          playsInline
-        />
-      
-        {isHovered && (
-          <div className="absolute inset-0 bg-black bg-opacity-20 flex items-center justify-center transition-opacity duration-300">
-            <div className="text-white text-left  pt-72 p-4">
-
-              <p className="text-xl font-bold opacity-90">Chai App</p>
-              <p className="text-sm opacity-90 mt-1"> An Managment System for a Tea Farm Between the Farm Owner and the Farm Supervisor, where the Supervisor can manage the Farm e.g Add Workers, Input the tea production data and Farm Owner can view the data </p>
-              <button className="bg-gray-100 hover:bg-gray-700 text-white  py-2 px-4 rounded mt-2 mr-3"><span class="text-blue-500">React</span></button>
-               <button className="bg-gray-100 hover:bg-gray-700 text-white  py-2 px-4 rounded mt-2 mr-3"><span class="text-amber-500">Node Js</span></button>
-            </div>
-          </div>
-        )}
-      </div>
-      
-    </div>
-         
+<div className="flex flex-col lg:flex-row gap-4 lg:gap-6">
+  
+  {/* First video component */}
+  <div  
+    className="bg-gray-50  rounded-lg overflow-hidden hover:shadow-xl transition-shadow relative flex-1"
+    onMouseEnter={() => setIsHovered(true)}
+    onMouseLeave={() => setIsHovered(false)}
+  >
+    <div className="relative  w-full aspect-video lg:h-80">
+      <video
+        className="w-full  object-contain sm:object-cover"
+        src={Vida}
+        autoPlay
+        muted
+        loop
+        playsInline
+      />
+    
+      {isHovered && (
+        <div className="absolute inset-0 bg-black bg-opacity-20 flex items-center justify-center transition-opacity duration-300">
+          <div className="text-white text-left pt-72 p-4 max-w-full">
+            <p className="text-lg sm:text-xl font-bold opacity-90">GameXchange</p>
+            <p className="text-xs sm:text-sm opacity-90 mt-1 leading-tight">
+              An E-commerce website for video games exchange between buyers (Gamer) and sellers managed by the admin
+            </p>
+            <button className="bg-gray-100 hover:bg-gray-700 text-white py-1.5 px-3 sm:py-2 sm:px-4 rounded mt-2 text-xs sm:text-sm">
+              <span className="text-red-500">Laravel</span>
+            </button>
           </div>
         </div>
+      )}
+    </div>
+  </div>
+
+  {/* Second video component */}
+  <div  
+    className="bg-gray-50 rounded-lg overflow-hidden hover:shadow-xl transition-shadow relative flex-1"
+    onMouseEnter={() => setIsHovered2(true)}
+    onMouseLeave={() => setIsHovered2(false)}
+  >
+    <div className="relative w-full aspect-video lg:h-96">
+      <video
+        className="w-full h-96 object-contain sm:object-cover"
+        src={Vida2}
+        autoPlay
+        muted
+        loop
+        playsInline
+      />
+    
+      {isHovered2 && (
+        <div className="absolute inset-0 bg-black bg-opacity-20 flex items-center justify-center transition-opacity duration-300">
+          <div className="text-white text-left p-4 pt-64 max-w-full">
+            <p className="text-lg sm:text-xl font-bold opacity-90">Chai App</p>
+            <p className="text-xs sm:text-sm opacity-90 mt-1 leading-tight">
+              A Management System for a Tea Farm Between the Farm Owner and the Farm Supervisor, where the Supervisor can manage the Farm e.g Add Workers, Input the tea production data and Farm Owner can view the data
+            </p>
+            <div className="flex flex-wrap gap-2 mt-2">
+              <button className="bg-gray-100 hover:bg-gray-700 text-white py-1.5 px-3 sm:py-2 sm:px-4 rounded text-xs sm:text-sm">
+                <span className="text-blue-500">React</span>
+              </button>
+              <button className="bg-gray-100 hover:bg-gray-700 text-white py-1.5 px-3 sm:py-2 sm:px-4 rounded text-xs sm:text-sm">
+                <span className="text-amber-500">Node.js</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+    </div>
+  </div>
+
+</div>
+          
+      
+        </div>
+         
+  
       </section>
 
       {/* GitHub Activity Section */}
