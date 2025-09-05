@@ -5,6 +5,7 @@ import kev from "./Images/kevin.jpeg";
 import Kktech2 from "./Images/cheffset.png";
 import Vida from "./Images/VideoDem0.mp4";
 import Vida2 from "./Images/TeaApp.mp4";
+import Vida3 from "./Images/cheff.mp4";
 
 import dex   from "./Images/dex1.png";
 import dex1 from "./Images/dexter2.png";
@@ -186,9 +187,9 @@ const Main = () => {
     onMouseEnter={() => setIsHovered(true)}
     onMouseLeave={() => setIsHovered(false)}
   >
-    <div className="relative  w-full aspect-video lg:h-80">
+    <div className="relative  w-full aspect-video lg:h-96">
       <video
-        className="w-full  object-contain sm:object-cover"
+        className="w-full lg:h-72  object-contain sm:object-cover"
         src={Vida}
         autoPlay
         muted
@@ -198,7 +199,7 @@ const Main = () => {
     
       
         <div className="absolute inset-0 bg-black bg-opacity-20 flex items-center justify-center transition-opacity duration-300">
-          <div className="text-white text-left sm:pt-44 lg:pt-72 p-4 max-w-full">
+          <div className="text-white text-left sm:pt-72 lg:pt-72 p-4 max-w-full">
             <p className="text-lg sm:text-xl font-bold opacity-90">GameXchange</p>
             <p className="text-xs sm:text-sm opacity-90 mt-1 leading-tight">
               An E-commerce website for video games exchange between buyers (Gamer) and sellers managed by the admin
@@ -245,6 +246,41 @@ const Main = () => {
             </div>
           </div>
         </div>
+        
+    
+    </div>
+  </div>
+
+  <div  
+    className="bg-gray-50 lg:w-96 rounded-lg overflow-hidden hover:shadow-xl transition-shadow relative flex-1"
+    onMouseEnter={() => setIsHovered2(true)}
+    onMouseLeave={() => setIsHovered2(false)}
+  >
+    <div className="relative  lg:w-full w-full aspect-video lg:h-80">
+      <video
+        className="w-full h-96 object-contain sm:object-cover"
+        src={Vida3}
+        autoPlay
+        muted
+        loop
+        playsInline
+      />
+    
+      
+        <div className="absolute inset-0 bg-black bg-opacity-20 flex items-center justify-center transition-opacity duration-300">
+          <div className="text-white text-left p-4 pt-64 max-w-full">
+            <p className="text-lg sm:text-xl font-bold opacity-90">Cheffset Restaurant </p>
+            <p className="text-xs sm:text-sm opacity-90 mt-1 leading-tight">
+             Static Website of a Restaurant known as Cheffset Displaying its Menu and its Services.
+            </p>
+            <div className="flex flex-wrap gap-2 mt-2">
+              <button className="bg-gray-100 hover:bg-gray-700 text-white py-1.5 px-3 sm:py-2 sm:px-4 rounded text-xs sm:text-sm">
+                <span className="text-blue-500">React</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        
     
     </div>
   </div>
