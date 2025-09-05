@@ -196,7 +196,7 @@ const Main = () => {
         playsInline
       />
     
-      {isHovered && (
+      
         <div className="absolute inset-0 bg-black bg-opacity-20 flex items-center justify-center transition-opacity duration-300">
           <div className="text-white text-left pt-72 p-4 max-w-full">
             <p className="text-lg sm:text-xl font-bold opacity-90">GameXchange</p>
@@ -208,7 +208,7 @@ const Main = () => {
             </button>
           </div>
         </div>
-      )}
+    
     </div>
   </div>
 
@@ -228,7 +228,7 @@ const Main = () => {
         playsInline
       />
     
-      {isHovered2 && (
+      
         <div className="absolute inset-0 bg-black bg-opacity-20 flex items-center justify-center transition-opacity duration-300">
           <div className="text-white text-left p-4 pt-64 max-w-full">
             <p className="text-lg sm:text-xl font-bold opacity-90">Chai App</p>
@@ -245,7 +245,7 @@ const Main = () => {
             </div>
           </div>
         </div>
-      )}
+    
     </div>
   </div>
 
