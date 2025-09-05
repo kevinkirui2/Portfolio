@@ -198,7 +198,7 @@ const Main = () => {
     
       
         <div className="absolute inset-0 bg-black bg-opacity-20 flex items-center justify-center transition-opacity duration-300">
-          <div className="text-white text-left pt-72 p-4 max-w-full">
+          <div className="text-white text-left sm:pt-44 lg:pt-72 p-4 max-w-full">
             <p className="text-lg sm:text-xl font-bold opacity-90">GameXchange</p>
             <p className="text-xs sm:text-sm opacity-90 mt-1 leading-tight">
               An E-commerce website for video games exchange between buyers (Gamer) and sellers managed by the admin
