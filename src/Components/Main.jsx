@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { ChevronDown, Github, Linkedin, Mail, ExternalLink, Calendar, Code, Users, ArrowRight } from 'lucide-react';
+import { ChevronDown, FileText, Github, Linkedin, Mail, ExternalLink, Calendar, Code, Users, ArrowRight } from 'lucide-react';
 import logo from "./Images/logo2.png";
 import kev from "./Images/kevin.jpeg";
 import Kktech2 from "./Images/cheffset.png";
@@ -383,8 +383,8 @@ const Main = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button className="px-8 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors flex items-center justify-center gap-2">
-              <Mail className="w-4 h-4" />
-             <a href="mailto:kiruikev99@gmail.com" target="_blank" rel="noopener noreferrer">  Get In Touch </a>
+                <FileText className="w-4 h-4" />
+             <a href="https://1drv.ms/b/c/9273c3e03a8e1704/EWkwflDdJ9lCq0oDbpB_P8AB7fXagCPE7K7qJZvjWpWbjQ?e=CcXzK5" target="_blank" rel="noopener noreferrer"> View Resume </a>
             </button>
             <button className="px-8 py-3 border border-gray-600 text-gray-300 rounded-lg hover:bg-gray-800 transition-colors flex items-center justify-center gap-2">
               <Github className="w-4 h-4" />
