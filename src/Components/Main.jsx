@@ -99,13 +99,12 @@ const Main = () => {
           <div className="">
             <img className="w-24 mx-auto mb-6 rounded" src={logo} alt="logo" />
             <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              I'm a Software Developer
+             I'm, Kevin Kirui,<br></br> A Software Developer
             </h1>
 
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              Focused on creating elegant solutions to complex problems, I
-              specialize in building modern web applications with cutting-edge
-              technologies.
+              Hello There!👋 <br></br>Welcome to my portfolio i am Focused on creating elegant solutions to complex problems, I
+              specialize in building modern web applications
             </p>
           </div>
           <div className="flex flex-col sm:flex-row pt-6 gap-4 justify-center">
