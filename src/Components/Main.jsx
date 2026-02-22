@@ -26,8 +26,7 @@ import Vida4 from "./Images/riverside2.mp4";
 const Main = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [activeSection, setActiveSection] = useState("home");
-  const [IsHovered, setIsHovered] = useState(false);
-  const [IsHovered2, setIsHovered2] = useState(false);
+
 
   useEffect(() => {
 
@@ -246,8 +245,7 @@ const Main = () => {
           <div className="flex flex-col gap-8">
             <div
               className="group rounded-2xl overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200 hover:border-blue-300 bg-white"
-              onMouseEnter={() => setIsHovered(true)}
-              onMouseLeave={() => setIsHovered(false)}
+             
             >
               <div className="relative w-full aspect-video overflow-hidden bg-gray-900">
                 <video
@@ -279,8 +277,7 @@ const Main = () => {
             {/* GameXchange Project */}
             <div
               className="group rounded-2xl overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200 hover:border-blue-300 bg-white"
-              onMouseEnter={() => setIsHovered(true)}
-              onMouseLeave={() => setIsHovered(false)}
+            
             >
               <div className="relative w-full aspect-video overflow-hidden bg-gray-900">
                 <video
@@ -312,8 +309,7 @@ const Main = () => {
             {/* Chai App Project */}
             <div
               className="group rounded-2xl overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200 hover:border-blue-300 bg-white"
-              onMouseEnter={() => setIsHovered2(true)}
-              onMouseLeave={() => setIsHovered2(false)}
+          
             >
               <div className="relative w-full aspect-video overflow-hidden bg-gray-900">
                 <video
@@ -350,8 +346,7 @@ const Main = () => {
             {/* Cheffset Restaurant */}
             <div
               className="group rounded-2xl overflow-hidden hover:shadow-2xl transition-all duration-500 border border-gray-200 hover:border-blue-300 bg-white"
-              onMouseEnter={() => setIsHovered2(true)}
-              onMouseLeave={() => setIsHovered2(false)}
+             
             >
               <div className="relative w-full aspect-video overflow-hidden bg-gray-900">
                 <video
