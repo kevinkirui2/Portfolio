@@ -8,7 +8,6 @@ import {
   Linkedin,
   Mail,
   ExternalLink,
-  Calendar,
   Code,
   Users,
   ArrowRight,
@@ -17,22 +16,21 @@ import {
 // Using placeholder paths - replace with actual image paths when available
 import logo from "./Images/logo2.png";
 import kev from "./Images/kevin.jpeg";
-import Kktech2 from "./Images/cheffset.png";
+
 import Vida from "./Images/VideoDem0.mp4";
 import Vida2 from "./Images/TeaApp.mp4";
 import Vida3 from "./Images/cheff.mp4";
 import Vida4 from "./Images/riverside2.mp4";
 
-const dex = "/images/dex1.png";
-const dex1 = "/images/dexter2.png";
 
 const Main = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [activeSection, setActiveSection] = useState("home");
-  const [isHovered, setIsHovered] = useState(false);
-  const [isHovered2, setIsHovered2] = useState(false);
+  const [IsHovered, setIsHovered] = useState(false);
+  const [IsHovered2, setIsHovered2] = useState(false);
 
   useEffect(() => {
+
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
     };
