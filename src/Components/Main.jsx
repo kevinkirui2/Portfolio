@@ -348,7 +348,7 @@ const Main = () => {
                   <div className="absolute inset-0 flex items-end p-8">
                     <div>
                       <p className="text-2xl font-bold mb-2 text-slate-100">{project.title}</p>
-                      <p className="text-slate-300 mb-4 leading-relaxed max-w-xl text-sm">{project.desc}</p>
+                      <p className="hidden md:block text-slate-300 mb-4 leading-relaxed max-w-xl text-sm">{project.desc}</p>
                       <div className="flex flex-wrap gap-2">
                         {project.tags.map((tag) => (
                           <span
