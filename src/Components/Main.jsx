@@ -14,7 +14,6 @@ import {
 } from "lucide-react";
 
 import logo from "./Images/logo2.png";
-import kev from "./Images/kevin.jpeg";
 import Vida from "./Images/VideoDem0.mp4";
 import Vida2 from "./Images/TeaApp.mp4";
 import Vida3 from "./Images/cheff.mp4";
