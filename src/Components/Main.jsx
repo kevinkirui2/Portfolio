@@ -58,20 +58,20 @@ const Main = () => {
     },
   ];
 
-  const experiences = [
-    {
-      company: "World Disaster Center",
-      role: "Full-Stack Developer (Intern)",
-      period: "April 2025 - May 2025",
-      desc: "Worked on the backend development of a roster management system. Created APIs to fetch and serve data for the roster page, implementing functionality to ensure data is properly stored and maintained in the database.",
-    },
-    {
-      company: "Baran Telcom Networks",
-      role: "Software Developer (Intern)",
-      period: "May 2023 - August 2023",
-      desc: "As a web developer, I designed and built websites for small businesses and clients across various industries. Handled projects end-to-end, from consultations and design mockups to development, deployment, and post-launch support.",
-    },
-  ];
+  // const experiences = [
+  //   {
+  //     company: "World Disaster Center",
+  //     role: "Full-Stack Developer (Intern)",
+  //     period: "April 2025 - May 2025",
+  //     desc: "Worked on the backend development of a roster management system. Created APIs to fetch and serve data for the roster page, implementing functionality to ensure data is properly stored and maintained in the database.",
+  //   },
+  //   {
+  //     company: "Baran Telcom Networks",
+  //     role: "Software Developer (Intern)",
+  //     period: "May 2023 - August 2023",
+  //     desc: "As a web developer, I designed and built websites for small businesses and clients across various industries. Handled projects end-to-end, from consultations and design mockups to development, deployment, and post-launch support.",
+  //   },
+  // ];
 
   const projects = [
     {
