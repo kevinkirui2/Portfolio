@@ -18,6 +18,8 @@ import Vida from "./Images/VideoDem0.mp4";
 import Vida2 from "./Images/TeaApp.mp4";
 import Vida3 from "./Images/cheff.mp4";
 import Vida4 from "./Images/riverside2.mp4";
+import sangah from "./Images/sangah.mp4";
+import econnect from "./Images/econnect.mp4";
 
 const Main = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -36,7 +38,7 @@ const Main = () => {
     setActiveSection(sectionId);
   };
 
-  const navItems = ["Home", "About", "Experience", "Projects", "Skills", "Contact"];
+  const navItems = ["Home", "About", "Projects", "Skills", "Contact"];
 
   const aboutCards = [
     {
@@ -77,6 +79,18 @@ const Main = () => {
       title: "Riverside Hostel Management System",
       desc: "A comprehensive management system for tenant tracking and admin operations. Tenants can view rent balances and raise issues, while admins manage all records and updates.",
       tags: [{ label: "PHP", color: "bg-violet-500" }],
+    },
+    {
+      src: sangah,
+      title: "Sangah Enterprise Website",
+      desc: "A contracting company with a proven track record in construction, civil works, and tower erection.",
+      tags: [{ label: "React", color: "bg-blue-500" }],
+    },
+      {
+      src: econnect,
+      title: "Nairobi EKonnect Website",
+      desc: "A nature-powered community connecting people through wellness, conservation, and unforgettable outdoor experiences.",
+      tags: [{ label: "React", color: "bg-blue-500" }],
     },
     {
       src: Vida,
@@ -272,7 +286,7 @@ const Main = () => {
       </section>
 
       {/* ── EXPERIENCE ── */}
-      <section id="experience" className="py-32 bg-slate-950">
+      {/* <section id="experience" className="py-32 bg-slate-950">
         <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10">
 
           <div className="text-center mb-20">
@@ -311,7 +325,7 @@ const Main = () => {
           </div>
 
         </div>
-      </section>
+      </section> */}
 
       {/* ── PROJECTS ── */}
       <section id="projects" className="py-32 bg-slate-900">
