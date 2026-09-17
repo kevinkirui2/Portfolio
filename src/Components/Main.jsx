@@ -446,7 +446,7 @@ const Main = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://1drv.ms/b/c/9273c3e03a8e1704/EWkwflDdJ9lCq0oDbpB_P8AB7fXagCPE7K7qJZvjWpWbjQ?e=CcXzK5"
+              href="https://drive.google.com/file/d/1vj8i07XOF9i7u4_ojyNcRRPFwuNQmKBH/view?usp=drive_link"
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 text-white rounded-lg hover:shadow-lg hover:shadow-cyan-500/20 transition-all duration-300 flex items-center justify-center gap-2 font-semibold group"
